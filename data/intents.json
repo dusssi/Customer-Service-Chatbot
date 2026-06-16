@@ -1,0 +1,204 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hello",
+        "hi",
+        "hey",
+        "good morning",
+        "good evening",
+        "is anyone there",
+        "can someone help me",
+        "need assistance",
+        "hello support",
+        "hi support"
+      ],
+      "responses": [
+        "Hello! How can I assist you today?",
+        "Hi there! What can I help you with?",
+        "Welcome! How may I assist you?"
+      ]
+    },
+    {
+      "tag": "order_status",
+      "patterns": [
+        "where is my order",
+        "track my package",
+        "order tracking",
+        "has my order shipped",
+        "when will my order arrive",
+        "delivery status",
+        "track shipment",
+        "parcel status",
+        "shipping update",
+        "track delivery"
+      ],
+      "responses": [
+        "Please provide your order ID.",
+        "I can help track your order.",
+        "Share your order number for tracking."
+      ]
+    },
+    {
+      "tag": "refund",
+      "patterns": [
+        "i want a refund",
+        "refund status",
+        "return my order",
+        "money back",
+        "request refund",
+        "how can i get a refund",
+        "refund request",
+        "return product",
+        "refund not received",
+        "refund process"
+      ],
+      "responses": [
+        "I can help with your refund request.",
+        "Please share your order details.",
+        "Refund requests are usually processed within 5-7 business days."
+      ]
+    },
+    {
+      "tag": "payment_issue",
+      "patterns": [
+        "payment failed",
+        "transaction failed",
+        "unable to pay",
+        "card declined",
+        "payment error",
+        "charged twice",
+        "double payment",
+        "payment problem",
+        "upi issue",
+        "billing issue"
+      ],
+      "responses": [
+        "Sorry for the inconvenience.",
+        "Please verify your payment details.",
+        "Our support team can help resolve payment issues."
+      ]
+    },
+    {
+      "tag": "password_reset",
+      "patterns": [
+        "forgot password",
+        "reset my password",
+        "change password",
+        "password recovery",
+        "lost my password",
+        "recover account",
+        "need password reset",
+        "update password",
+        "cannot remember password",
+        "reset login credentials"
+      ],
+      "responses": [
+        "Use the 'Forgot Password' option on the login page.",
+        "A password reset link will be sent to your email.",
+        "Follow the reset instructions to create a new password."
+      ]
+    },
+    {
+      "tag": "technical_support",
+      "patterns": [
+        "website not working",
+        "app crashed",
+        "technical issue",
+        "system error",
+        "bug report",
+        "app not opening",
+        "page not loading",
+        "service unavailable",
+        "website error",
+        "software problem"
+      ],
+      "responses": [
+        "Sorry for the inconvenience.",
+        "Please describe the issue in more detail.",
+        "Our technical team is looking into it."
+      ]
+    },
+    {
+      "tag": "product_information",
+      "patterns": [
+        "product details",
+        "tell me about this product",
+        "product specifications",
+        "item features",
+        "product information",
+        "describe this product",
+        "more details",
+        "product overview",
+        "what are the features",
+        "product description"
+      ],
+      "responses": [
+        "Please specify the product name.",
+        "I'd be happy to provide product information.",
+        "Share the product you're interested in."
+      ]
+    },
+    {
+      "tag": "complaint",
+      "patterns": [
+        "i want to complain",
+        "bad experience",
+        "poor service",
+        "customer complaint",
+        "report an issue",
+        "service complaint",
+        "i am dissatisfied",
+        "raise a complaint",
+        "not happy",
+        "terrible service"
+      ],
+      "responses": [
+        "We're sorry to hear that.",
+        "Your feedback is important to us.",
+        "Please provide more details about your concern."
+      ]
+    },
+    {
+      "tag": "contact_support",
+      "patterns": [
+        "contact support",
+        "customer care number",
+        "help desk",
+        "support email",
+        "talk to agent",
+        "live support",
+        "contact customer service",
+        "speak to representative",
+        "need human support",
+        "how can i contact you"
+      ],
+      "responses": [
+        "You can contact support at support@example.com",
+        "Our support team is available Monday-Friday.",
+        "Please reach out through our support portal."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "bye",
+        "goodbye",
+        "see you",
+        "thanks bye",
+        "have a nice day",
+        "talk later",
+        "catch you later",
+        "thank you goodbye",
+        "i am done",
+        "end chat"
+      ],
+      "responses": [
+        "Goodbye!",
+        "Have a wonderful day!",
+        "Thank you for contacting us."
+      ]
+    }
+  ]
+}
